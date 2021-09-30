@@ -1,0 +1,57 @@
+@media screen and (max-width: 800px) {
+    main{
+        width: 100%;
+    }
+    .navbar{
+        height: 12vh;
+        padding-top: 15px;
+        flex-direction: column;
+    }
+    #home h2{
+        font-size: 5em;
+        text-align: center;
+    }
+    .home-ul li{
+        font-size: 1.2em;
+    }
+
+    #skills{
+        margin-top: 16em;
+    }
+
+    .skill-main{
+        flex-direction: column;
+    }
+    .skill-main2{
+        flex-direction: column;
+    }
+
+    .skill-main2-heading{
+        margin: 2em 0px 1em;
+    }
+
+    .skill-main2-box{
+        width: 50%;
+        margin: 0px auto 8px;
+    }
+
+    #projects{
+        height: 160vh;
+        margin-top: 20em;
+    }
+    .project-main{
+        flex-direction: column;
+    }
+
+    .project-box {
+        margin: 0.8em;
+    }
+    
+    .project-box img{
+        width: 100%;
+    }
+
+    .link-other{
+        width: 40%;
+    }
+}

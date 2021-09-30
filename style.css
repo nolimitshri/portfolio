@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    color: white;
+}
+
+.navbar{
+    background-color: #082032;
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 12;
+}
+
+.nav-item-l{
+    display: flex;
+}
+
+.items{
+    list-style: none;
+    margin: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.items a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #082032;
+    color: white;
+}
+
+.items:hover {
+    background-color: #3D2C8D;
+    border-radius: 8px;
+}
+
+main{
+    background-color: #334756;
+}
+
+#home{
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home h2{
+    color: white;
+    font-size: 7em;
+}
+
+.home-ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.home-ul li {
+    margin: 20px;
+}
+
+.link1{
+    list-style: none;
+}
+
+.logo-section img{
+    margin: 0px 1.5rem;
+}
+
+
+.logo-section a:hover{
+    box-shadow:  rgba(0, 0, 0, 0.17) 0px 12px 13px;
+}
+
+#about{
+    padding-top: 1vh;
+    height: 100vh;
+}
+
+.heading-about{
+    color: white;
+    text-align: center;
+    margin: 1.5em 0px 1.2em;
+    font-size: 5rem;
+}
+
+.about-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.about-edu{
+    margin-left: 3.5em;
+}
+
+.about-edu li{
+    list-style:square;
+    font-weight: bolder;
+    color: rgb(194, 188, 188);
+}
+
+.about-boxes span{
+    color: #916BBF;
+}
+
+.about-boxes img{
+    filter: hue-rotate(90deg);
+}
+
+.about-edu > *{
+    margin: 1.3em 0px;
+}
+
+.about-edu li > *{
+    margin: 0.15em;
+}
+
+.about-edu li h1,h2{
+    color: white;
+}
+
+.about-edu li p{
+    color: rgb(194, 188, 188);
+}
+
+.about-boxes{
+    /* border: 1px solid black;     */
+    padding: 6px;
+    
+}
+
+.about-boxes span{
+    font-size: 2.8em;
+}
+
+
+#skills{
+    padding-top: 1vh;
+    height: 100vh;
+}
+
+.skill-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill-main-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill-main-box > * {
+    margin: 0.8em;
+}
+
+.skill-main2-heading{
+    margin: 2em 0px;
+    text-align: center;
+
+    font-weight: bolder;
+    font-size: 2.2rem;
+}
+
+.skill-main2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-main2-box{
+    width: 12%;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.skill-main2-box h3{
+    text-align: center;
+}
+
+
+#projects{
+    padding-top: 1vh;
+    height: 99vh;
+}
+
+.project-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.project-box:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    transition: 300ms;
+}
+
+.project-box a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.project-box h3{
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 6px;
+}
+
+.project-box p{
+    margin-bottom: 6px;
+    font-weight: bolder;
+    color: rgb(41, 39, 39);
+}
+
+.link-other{
+    cursor: pointer;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    margin: 5em auto;
+    background-color: #916BBF;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.link-other:hover{
+    background-color: #c192fa;
+
+}
+
+.link-other-main{
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    padding-top: 10px;
+    height: 9vh;
+    background-color: #082032;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: #3D2C8D; 
+}
+
+
+/* scroller things */
+
+::-webkit-scrollbar{
+    width: 1em;
+    background-color: #082032;
+}
+
+::-webkit-scrollbar-track{
+    /* background: hsl(120, 75%, 50%); */
+    background: #334756;
+    border-radius: 100vw;
+    margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #334756;
+    border-radius: 100vw;
+    border: 0.25em solid #082032;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #3D2C8D;
+
+}
