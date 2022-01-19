@@ -13,6 +13,10 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    background-color: #334756;
+}
+
 header{
     color: white;
 }
@@ -216,6 +220,7 @@ main{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
 }
 
 .project-box{
@@ -225,6 +230,7 @@ main{
     background-color: white;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-bottom: 1.2em;
 }
 
 .project-box:hover{
@@ -254,7 +260,7 @@ main{
     width: 12%;
     display: flex;
     justify-content: center;
-    margin: 5em auto;
+    margin: 11em auto 3em;
     background-color: #916BBF;
     padding: 10px;
     border-radius: 8px;
